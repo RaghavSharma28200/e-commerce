@@ -12,7 +12,7 @@ const Card = ({name,rating,price,pic}) => {
      </div>
      <p className='product-title'>{shortName}</p>
      <p className='product-price'>Price: ₹{price}</p>
-     <p className='product-rating'><span className="product-rating-span">{rating}<AiFillStar/></span></p>
+     <p className='product-rating' id="rating"><span className="product-rating-span">{rating}<AiFillStar className='star'/></span></p>
     </div>
 
     </>

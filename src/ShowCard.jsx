@@ -7,13 +7,13 @@ const ShowCard = ({data}) => {
         <>
      <div className="flex">
        { Array.from(data).map((items)=>{
-           return  <Card
-                       key = {items._id}
-                       name={items.name}
-                       pic={items.images[0].url}
-                       rating={items.ratings}
-                       price={items.price}
-                       /> 
+        return  <Card
+         key = {items._id}
+         name={items.name}
+         pic={items.images[0].url}
+         rating={items.ratings}
+         price={items.price}
+         /> 
        })}
        </div>
         </>
